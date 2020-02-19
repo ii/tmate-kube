@@ -1,0 +1,10 @@
+# -*- ii: nico+hh; -*-
+#+TITLE: tmatemacs : Cloud Native Development For everybody
+* This assumes running within tmatemacs
+
+  #+begin_src tmate :dir "." :session nico:TILT
+    tilt up --host 0.0.0.0
+  #+end_src
+  #+begin_src tmate :dir "." :session nico:TANGLE
+    echo tangle
+  #+end_src
